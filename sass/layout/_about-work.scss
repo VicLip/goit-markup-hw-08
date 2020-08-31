@@ -1,0 +1,47 @@
+/* О НАС */
+
+.about-us-bg {
+  display: flex;
+  background: $background;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.about-us-svg {
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.about-work-list {
+  display: flex;
+}
+
+.about-work-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-work-icon {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $title-text-color;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+}

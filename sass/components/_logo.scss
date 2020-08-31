@@ -1,0 +1,29 @@
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: $logo-text-color;
+  margin-right: 85px;
+
+  > span {
+    color: $accent-color;
+  }
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+  margin-bottom: 8px;
+
+  > span {
+    color: $accent-color;
+  }
+}

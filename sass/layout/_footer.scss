@@ -1,0 +1,126 @@
+/* ПОДВАЛ */
+
+.footer {
+  background-color: $footer-background;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-address-item .address-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}
+
+.footer-address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-addres-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-utils {
+  margin-right: 94px;
+}
+
+.footer-subtitle {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondary-text-color;
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  display: flex;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.footer-links-list {
+  display: flex;
+
+  li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.footer-section {
+  margin-right: 69px;
+}
+
+.footer-social-links {
+  display: flex;
+  width: 44px;
+  min-height: 44px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: $secondary-text-color;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.form-mail-input {
+  width: 356px;
+  height: 50px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  padding: 15px 16px;
+}
+
+.form-mail-btn {
+  display: inline-flex;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  color: $secondary-text-color;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  margin: auto;
+  padding: 10px 28px;
+}
+
+.mail-btn-svg {
+  fill: $secondary-text-color;
+  margin-left: 10px;
+}
